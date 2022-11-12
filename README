@@ -1,0 +1,13 @@
+
+Run by "ruby stock.rb"
+File taken by original from google excel
+
+Parsing limited to 50 urls (to avoid long wait to test it)
+
+What the program does:
+- Parses stocks.xlsx except first line (as it's title)
+- Then it parse urls one by one without parallel
+- Use `"input type="number"` as first check to apply first condition if a product in stock
+- If in the condition regex found `/<button type="submit".*.disabled.*.addToCartButton/m` then it flag as out of stock (because the button to add cart is gray)
+- If url 404 then it out of stock
+- In the end we get result with {url, state}
