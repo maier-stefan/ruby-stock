@@ -1,0 +1,59 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.foodspring.de/bio-coconut-chips-6-paket
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - www.foodspring.de
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Content-Type:
+      - text/html; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - Express
+      Cache-Control:
+      - must-revalidate, post-check=0, pre-check=0, max-age=0, s-maxage=2592000
+      Last-Modified:
+      - Mon, 31 Mar 2009 10:00:00 GMT
+      Location:
+      - "/snacks"
+      Date:
+      - Sun, 13 Nov 2022 13:00:48 GMT
+      X-Envoy-Upstream-Service-Time:
+      - '32'
+      Server:
+      - envoy
+      Vary:
+      - Accept-Encoding
+      X-Cache:
+      - Hit from cloudfront
+      Via:
+      - 1.1 b4415e223ef4b4a1db5d4b79b555fe2e.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - TXL50-P4
+      X-Amz-Cf-Id:
+      - bBs2CZF8E0JpBt1KbkN2TfbcJ4cLiiTsFGTrZM15B5KPJRJQ49HhKg==
+      Age:
+      - '3007'
+    body:
+      encoding: ASCII-8BIT
+      string: ''
+  recorded_at: Sun, 13 Nov 2022 13:50:55 GMT
+recorded_with: VCR 6.1.0
